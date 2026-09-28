@@ -1,0 +1,1 @@
+# odoo-solar-demo

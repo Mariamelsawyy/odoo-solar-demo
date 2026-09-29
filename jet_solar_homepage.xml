@@ -1,0 +1,75 @@
+<!--
+  Solar demo homepage body for Odoo Website (QWeb / Bootstrap 5).
+  Paste this in place of the existing <div id="wrap" ...> block of the Home view.
+  Keep the surrounding <t t-call="website.layout"> wrapper untouched.
+-->
+<div id="wrap" class="oe_structure">
+
+  <!-- 1. HERO: dark color combo (o_cc5) keeps white text readable, same idea as the overlay we did by hand -->
+  <section class="s_cover o_cc o_cc5 pt96 pb96 text-center">
+    <div class="container">
+      <h1 class="display-2">Power Your Future With Solar</h1>
+      <p class="lead mt-3">
+        Egyptian-made solar solutions for homes, businesses, and agriculture:
+        on-grid, off-grid, and beyond.
+      </p>
+      <a href="#solutions" class="btn btn-primary btn-lg m-1">Explore Solutions</a>
+      <a href="/contactus" class="btn btn-outline-light btn-lg m-1">Contact us</a>
+    </div>
+  </section>
+
+  <!-- 2. SOLUTIONS: 2x2 grid. col-lg-6 = 2 per row on desktop, 1 per row on mobile (responsive for free) -->
+  <section id="solutions" class="s_features pt64 pb48">
+    <div class="container">
+      <h2 class="mb-4">Find the Right Solar Solution for You</h2>
+      <div class="row">
+
+        <div class="col-lg-6 pb24">
+          <div class="card h-100">
+            <div class="card-body">
+              <i class="fa fa-plug fa-2x mb-3 text-primary"/>
+              <h3 class="h5 card-title">On-Grid Systems</h3>
+              <p class="card-text">Connected to the national grid: reduce your electricity bill while staying backed up by grid power when you need it.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 pb24">
+          <div class="card h-100">
+            <div class="card-body">
+              <i class="fa fa-battery-full fa-2x mb-3 text-primary"/>
+              <h3 class="h5 card-title">Off-Grid Systems</h3>
+              <p class="card-text">Fully independent power for homes and sites with no reliable grid connection: generate and store your own energy.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 pb24">
+          <div class="card h-100">
+            <div class="card-body">
+              <i class="fa fa-tint fa-2x mb-3 text-primary"/>
+              <h3 class="h5 card-title">Solar Water Pumping</h3>
+              <p class="card-text">Solar-powered pumping systems for agricultural and irrigation use: no fuel costs, no grid dependency.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 pb24">
+          <div class="card h-100">
+            <div class="card-body">
+              <i class="fa fa-building fa-2x mb-3 text-primary"/>
+              <h3 class="h5 card-title">BIPV (Building-Integrated Solar)</h3>
+              <p class="card-text">Solar technology built directly into architecture: power generation without sacrificing design.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. QUOTE FORM DROP ZONE: oe_structure = an area the website editor can drop blocks into.
+       Add the real Form block here from Blocks > Contact and Forms (it needs Odoo's server-side wiring). -->
+  <div id="quote" class="oe_structure"/>
+
+</div>

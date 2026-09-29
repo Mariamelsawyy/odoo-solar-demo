@@ -33,19 +33,19 @@ demonstration purposes.
 
 | Desktop hero | Solution cards |
 |---|---|
-| ![hero](screenshots/hero-desktop.png) | ![cards](screenshots/solution-cards.png) |
+| ![hero](ScreenShots/hero-desktop.png) | ![cards](ScreenShots/solution-cards.png) |
 
 | Mobile view | Quote form |
 |---|---|
-| ![mobile](screenshots/mobile-view.png) | ![form](screenshots/quote-form.png) |
+| ![mobile](ScreenShots/mobile-view.png) | ![form](ScreenShots/quote-form.png) |
 
 | CRM lead created from form submission |
 |---|
-| ![crm](screenshots/crm-lead.png) |
+| ![crm](ScreenShots/crm-lead.png) |
 
 | PageSpeed Insights (desktop) |
 |---|
-| ![pagespeed](screenshots/pagespeed-desktop.png) |
+| ![pagespeed](ScreenShots/pagespeed-desktop.png) |
 
 ## Code
 
